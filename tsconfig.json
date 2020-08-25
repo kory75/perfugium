@@ -6,5 +6,18 @@
 */
 {
   "files": [],
-  "references": []
+  "references": [
+    {
+      "path": "./projects/perfugium-core/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/perfugium-core/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/perfugium-paranoia/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/perfugium-paranoia/tsconfig.spec.json"
+    }
+]
 }

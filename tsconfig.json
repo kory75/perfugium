@@ -18,6 +18,12 @@
     },
     {
       "path": "./projects/perfugium-paranoia/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/perfugium-paranoia-e2/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/perfugium-paranoia-e2/tsconfig.spec.json"
     }
 ]
 }

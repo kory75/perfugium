@@ -25,3 +25,48 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## Components
+
+### Perfugium Core
+
+#### Character List
+
+#### Header
+
+#### Character Sheet
+
+### Perfugium Paranoia
+
+#### Paranoia Character Sheet
+
+### Perfugium Paranoia e2
+
+#### 
+
+## Services
+
+### Perfugium Core
+
+#### Character Sheet State Service
+
+#### Dice Service
+
+#### Character Service (Load and Save)
+
+### Perfugium Paranoia
+
+#### Rules Service
+
+
+
+<div ngfor=attribute in Attributes.Foreach>
+    <prf-number-field min="attribute.min">
+</div>
+
+<div ngfor=bonus in Bonus.Foreach>
+    <prf-number-field min="attribute.min">
+</div>
+
+

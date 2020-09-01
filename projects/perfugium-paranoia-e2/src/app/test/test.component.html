@@ -1,0 +1,28 @@
+<div [formGroup]="formGroup">
+    <div class="input-group mb-3">
+        <label>Name</label>
+        <input formControlName="name" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <label>Player</label> 
+        <app-test2 formControlName="player"></app-test2>
+    </div>
+    <div class="input-group mb-3">
+        <label>Security Clerence</label>
+        <input formControlName="clearance" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+        <label>Service Group</label>
+        <input formControlName="serviceGroup" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+</div>
+
+<button (click)="rollDice()">dice</button>
+
+<pre>{{ formGroup.getRawValue() | json }}</pre>
+<h3>Attributes</h3>
+
+<h3>Weapons</h3>
+
+
+<h3>Skills</h3>
